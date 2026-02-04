@@ -3,7 +3,7 @@ import './index.css';
 import Auth from './components/Auth';
 import Tasks from './components/Tasks';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_URL = "https://vercel.com/utkarshs-projects-46c28f85/todo-backend-y55l"
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem('token') || null);
